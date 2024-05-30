@@ -141,5 +141,5 @@ pip install -r requirements.txt
 ### Run the Streamlit Web App
 
 ```bash
-streamlit run app.py
+streamlit run web_app.py
 ```

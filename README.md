@@ -121,3 +121,25 @@ This project requires the following Python packages:
 - xgboost
 - streamlit
 - pickle
+
+## How to Run
+
+### Install Dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run
+
+### Run the Jupyter Notebook
+
+1. Open `spam_detection.ipynb` in Jupyter.
+2. Run all cells to train and evaluate the model.
+3. Save the trained model and vectorizer using `pickle`.
+
+### Run the Streamlit Web App
+
+```bash
+streamlit run app.py
+```

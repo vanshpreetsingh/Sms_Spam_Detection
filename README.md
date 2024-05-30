@@ -141,3 +141,12 @@ pip install -r requirements.txt
 ```bash
 streamlit run web_app.py
 ```
+
+## Outputs
+
+### Not Spam:
+<img src="https://github.com/vanshpreetsingh/Sms_Spam_Detection/assets/84062550/aff22351-e26d-4d87-8a9e-274b012fd291" width="600" />
+
+### Spam:
+<img src="https://github.com/vanshpreetsingh/Sms_Spam_Detection/assets/84062550/d7c34c31-9d4e-47b4-b936-8882cd446685" width="600" />
+

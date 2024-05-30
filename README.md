@@ -130,8 +130,6 @@ This project requires the following Python packages:
 pip install -r requirements.txt
 ```
 
-## How to Run
-
 ### Run the Jupyter Notebook
 
 1. Open `spam_detection.ipynb` in Jupyter.

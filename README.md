@@ -19,10 +19,13 @@ This repository contains the complete code and documentation for an SMS spam det
 - [Dependencies](#dependencies)
 
 ## Overview
-The project aims to develop an SMS spam detection system that can effectively classify messages as spam or non-spam. This system utilizes natural language processing (NLP) techniques and machine learning algorithms to analyze and predict the nature of SMS messages. The project consists of two main components: a Jupyter notebook for building and evaluating the machine learning model, and a Streamlit web application for real-time spam detection.
+The project aims to develop an **SMS spam detection** system that can effectively classify messages as spam or non-spam. This system utilizes natural language processing (NLP) techniques and machine learning algorithms to analyze and predict the nature of SMS messages.
+The project consists of two main components: 
+- A **Jupyter Notebook** for building and evaluating the machine learning model
+- A **Streamlit Web Application** for real-time spam detection.
 
 ## Dataset
-The dataset used for this project is the "SMS Spam Collection" dataset from the UCI Machine Learning Repository. It consists of 5,572 SMS messages in English, categorized as either 'ham' (legitimate) or 'spam'. The dataset contains two columns:
+The dataset used for this project is the **"SMS Spam Collection" dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)**. It consists of 5,572 SMS messages in English, categorized as either 'ham' (legitimate) or 'spam'. The dataset contains two columns:
 - `v1`: The label (ham or spam)
 - `v2`: The message content
 
@@ -89,7 +92,7 @@ After evaluating and improving various models, the final model is selected based
 ## Web Application
 
 ### Web App Functionality
-The Streamlit web application provides an interactive interface for users to classify SMS messages. The app:
+The **Streamlit web application** provides an interactive interface for users to classify SMS messages. The app:
 1. Accepts user input via a text area.
 2. Preprocesses the input text using the same steps as in the machine learning model.
 3. Vectorizes the input text using the saved TF-IDF vectorizer.
@@ -118,8 +121,3 @@ This project requires the following Python packages:
 - xgboost
 - streamlit
 - pickle
-
-Install the required packages using:
-
-```bash
-pip install -r requirements.txt

@@ -1,5 +1,8 @@
 # SMS Spam Detection Project
 
+### Note: The project is deployed and fully functional
+### URL: https://smsspamdetection1.streamlit.app/
+
 This repository contains the complete code and documentation for an SMS spam detection project, which includes both a machine learning model and a web application. The primary goal of this project is to classify SMS messages as spam or not spam using various machine learning algorithms.
 
 ## Table of Contents
